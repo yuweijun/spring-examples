@@ -1,2 +1,10 @@
 # spring-examples
-spring-2.5.6 examples
+
+## spring-mvc examples
+
+$> mvn jetty:run
+
+## open browser
+
+> http://localhost:8080/index.html
+
