@@ -51,6 +51,13 @@
                 <include name="pages/**"/>
             </fileset>
         </copy>
+
+        <mkdir dir="${web.dir}/resources/css"/>
+        <copy todir="${web.dir}/resources">
+            <fileset dir="${resources.dir}">
+                <include name="css/**"/>
+            </fileset>
+        </copy>
     </target>
 
     <target name="package" depends="clean, compile, copy-resources"
