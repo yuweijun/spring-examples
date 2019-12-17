@@ -1,9 +1,9 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<c:url var="resources" value="/resources" scope="request" />
+<c:url var="root" value="/" scope="request" />
 
 <html>
 <head>
-<link href="${resources}/css/main.css" rel="stylesheet">
+<link href="${root}css/main.css" rel="stylesheet">
 </head>
 <body>
     <h1>Ant + Spring MVC Web Project Example</h1>
